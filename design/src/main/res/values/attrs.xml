@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="label" format="string"/>
+    <attr name="bolden" format="boolean"/>
+    <attr name="error" format="string"/>
+    <attr name="success" format="boolean"/>
+
+    <!-- Typography -->
+    <declare-styleable name="h1">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor" format="color"/>
+        <attr name="bolden"/>
+    </declare-styleable>
+    <declare-styleable name="h2">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor" format="color"/>
+        <attr name="bolden"/>
+    </declare-styleable>
+    <declare-styleable name="h3">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor" format="color"/>
+        <attr name="bolden"/>
+    </declare-styleable>
+    <declare-styleable name="h4">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor" format="color"/>
+        <attr name="bolden"/>
+    </declare-styleable>
+    <declare-styleable name="paragraph">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor" format="color"/>
+        <attr name="bolden"/>
+    </declare-styleable>
+    <declare-styleable name="caption">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor" format="color"/>
+        <attr name="bolden"/>
+    </declare-styleable>
+
+    <!-- Forms -->
+    <declare-styleable name="TextForm">
+        <attr name="label"/>
+        <attr name="android:inputType"/>
+        <attr name="android:imeOptions"/>
+        <attr name="android:hint"/>
+        <attr name="error"/>
+        <attr name="success"/>
+    </declare-styleable>
+
+    <declare-styleable name="BoxedTextForm">
+        <attr name="label"/>
+        <attr name="android:inputType"/>
+        <attr name="android:imeOptions"/>
+        <attr name="android:hint"/>
+        <attr name="error"/>
+        <attr name="success"/>
+    </declare-styleable>
+
+    <!-- Text -->
+    <attr name="h1Style" format="reference"/>
+    <attr name="h2Style" format="reference"/>
+    <attr name="h3Style" format="reference"/>
+    <attr name="h4Style" format="reference"/>
+    <attr name="h5Style" format="reference"/>
+    <attr name="paragraphStyle" format="reference"/>
+    <attr name="captionStyle" format="reference"/>
+
+    <!-- Buttons -->
+    <attr name="primaryButtonStyle" format="reference"/>
+    <attr name="secondaryButtonStyle" format="reference"/>
+    <attr name="phantomButtonStyle" format="reference"/>
+
+    <!-- Controls -->
+    <attr name="checkboxStyle" format="reference"/>
+    <attr name="radioStyle" format="reference"/>
+    <attr name="toggleStyle" format="reference"/>
+
+    <!-- Toolbar -->
+    <declare-styleable name="BonesToolbar">
+        <attr name="headerTitle" format="string"/>
+    </declare-styleable>
+</resources>

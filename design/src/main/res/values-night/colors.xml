@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Android Theme Colors -->
+    <!-- Nothing to override -->
+
+    <!-- Android Material Theme Colors -->
+
+    <color name="colorOnError">@color/white</color>
+    <color name="scrimBackground">@color/grey400</color>
+
+    <!-- Background Colors -->
+    <color name="colorBackground">@color/grey900</color>
+    <color name="colorOnBackground">@color/white</color>
+    <color name="colorSurface">@color/grey700</color>
+    <color name="colorOnSurface">@color/white</color>
+
+
+    <!-- Text Colors -->
+    <color name="textColorDark">@color/white</color>
+    <color name="textColorMedium">@color/grey300</color>
+    <color name="textColorLight">@color/grey400</color>
+
+</resources>

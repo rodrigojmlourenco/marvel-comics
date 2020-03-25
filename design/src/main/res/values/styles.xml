@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Original AppCompat attributes. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+
+        <!-- New MaterialComponents attributes. -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="scrimBackground">@color/scrimBackground</item>
+
+        <!-- Typography -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.AppTheme.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.AppTheme.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.AppTheme.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.AppTheme.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.AppTheme.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.AppTheme.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.AppTheme.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.AppTheme.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.AppTheme.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.AppTheme.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+
+        <item name="h1Style">@style/Widget.AppTheme.H1</item>
+        <item name="h2Style">@style/Widget.AppTheme.H2</item>
+        <item name="h3Style">@style/Widget.AppTheme.H3</item>
+        <item name="h4Style">@style/Widget.AppTheme.H4</item>
+        <item name="h5Style">@style/Widget.AppTheme.H5</item>
+        <item name="paragraphStyle">@style/Widget.AppTheme.P</item>
+        <item name="captionStyle">@style/Widget.AppTheme.D</item>
+
+        <!-- Shape Appearances -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.AppTheme.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.AppTheme.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.AppTheme.LargeComponent</item>
+
+        <!-- Widgets -->
+        <item name="buttonStyle">@style/Widget.AppTheme.Button</item>
+        <item name="primaryButtonStyle">@style/Widget.AppTheme.Button</item>
+        <item name="secondaryButtonStyle">@style/Widget.AppTheme.Button.OutlinedButton</item>
+        <item name="phantomButtonStyle">@style/Widget.AppTheme.Button.TextButton</item>
+
+        <!-- Controls -->
+        <item name="checkboxStyle">@style/Widget.AppTheme.Checkbox</item>
+        <item name="radioButtonStyle">@style/Widget.AppTheme.Radio</item>
+        <item name="toggleStyle">@style/Widget.AppTheme.Toggle</item>
+
+        <!-- Bottom Navigation -->
+        <item name="bottomNavigationStyle">@style/Widget.AppTheme.BottomNavigationView</item>
+        <item name="toolbarStyle">@style/Widget.AppTheme.Toolbar</item>
+
+        <item name="snackbarStyle">@style/Widget.AppTheme.Snackbar</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="AppTheme">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="AppTheme.NoBackground" parent="AppTheme">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="AppTheme">
+        <item name="contentInsetStart">0dp</item>
+    </style>
+
+    <style name="AppTheme.Card" parent="AppTheme">
+        <item name="cardBackgroundColor">@color/colorSurface</item>
+    </style>
+
+    <style name="AppTheme.SearchView" parent="AppTheme">
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+</resources>

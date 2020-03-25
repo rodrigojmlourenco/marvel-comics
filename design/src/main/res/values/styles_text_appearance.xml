@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Typography
+    @see https://material.io/develop/android/theming/typography/
+    @see https://material.io/design/typography/the-type-system.html#type-scale
+    -->
+    <style name="TextAppearance.AppTheme.Headline1" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/textColorDark</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/textColorDark</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/textColorDark</item>
+
+    </style>
+
+    <style name="TextAppearance.AppTheme.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/textColorDark</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColorDark</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Headline6" parent="TextAppearance.AppTheme.Headline4"/>
+
+    <style name="TextAppearance.AppTheme.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColorMedium</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Subtitle2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textColorMedium</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/textColorMedium</item>
+        <item name="android:textColorLink">?attr/colorPrimary</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textColorMedium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColorLink">?attr/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/textColorLight</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>
